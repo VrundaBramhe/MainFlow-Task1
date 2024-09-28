@@ -1,0 +1,195 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Task 2</title>
+</head>
+
+
+
+<style>
+    body {
+        background-image: url(./img1.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover; 
+        background-position: center;
+        max-width: 100%;
+        margin:0 ;
+        height: 100vh;
+
+
+        background-attachment:fixed;
+
+
+    }
+    .flex-boxx  {
+        
+        display: flex;
+        height: 95px; /* Fixed height for the container */
+        background-color: #0d1b2a;
+        align-items: center;
+        justify-content: space-around; /* Space out child elements evenly */
+        
+        
+         
+    }
+
+    .flex-boxx p {
+        
+        color: #FFF0D1;
+        text-align: center;
+        text-transform: uppercase;
+        font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-size: 35px;
+        
+        a:link {
+                            color : #FFF0D1;
+                            text-decoration: none;
+                        }
+        a:hover {
+                    
+                            color: #E7B10A;
+                            text-decoration: none;
+                }
+        a:visited {
+                            color: #00eaea;
+                            text-decoration: none;
+                        }
+    }
+
+    .bg-box {
+        margin-top: 40px ;
+        margin-left: 80px;
+        margin-right: 80px;
+        margin-bottom: 30px;
+        display: block;
+        background-color: #ffffff;
+        
+        border-radius: 30px;
+        height: 200vh;
+
+        display: flex;
+
+    }
+
+    .bg-box img {
+        margin-top: 60px;
+        margin-left: 40px;
+        margin-right: 40px;
+        height: 400px;
+        width: 600px;
+        max-width: 100%;
+        border-radius: 20px;
+        
+        overflow: hidden;
+
+        flex: 1;
+        
+        justify-content: center;
+        
+    }
+    .bg-box > .blue-box {
+    flex: 1;
+    margin-top: 60px;
+    margin-left: 40px;
+    margin-right: 40px;  
+    height: 800px;
+    width: 600px;
+    max-width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+ 
+    background-color: #faedcd;
+
+    display: flex;
+    justify-content: center;   /* Center horizontally*/
+    align-items: flex-start;      /* Center vertically */
+        
+
+    flex-direction: column;
+    align-items: center;
+    text-align:justify;
+    font-size: 30px;
+    font-style: italic bold;
+    
+    
+    
+
+}
+
+    .blue-box img {
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;               /* Maintain aspect ratio */
+    max-width: 80%;            /* Ensure responsiveness */
+    border-radius: 20px;
+    
+}
+.blue-box p {
+    margin-top: 40px;
+    text-align: center;
+    width: 80%
+    
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</style>
+<body>
+
+<div class="flex-boxx">
+    <p><a href="#">Home</a></p>
+    <p><a href="#">Services</a></p>
+    <p><a href="#">Contact</a></p>
+    <p><a href="#">About</a></p>
+
+    </div>
+
+
+<div class="bg-box">
+  <div class="blue-box">
+    <img src="./img2.webp">
+    <p>"Built with passion, precision, and a personal touch, each home reflects the care and craftsmanship of its creator, designed to offer you a unique living experience."</p>
+</div>
+<div class="blue-box">
+    <img src="./img3.jpg">
+    <p>"Crafted by the hands of the homeowner, these custom built homes combine innovation and artistry, providing a one-of-a-kind space tailored for comfort and style."</p>
+
+</div>
+<div class="blue-box">
+    <img src="./img4.jpg">
+    <p>"Every home tells a story designed and built by the owner, these properties stand as a testament to quality, individuality, and a deep commitment to perfection."</p>
+</div>
+    
+
+    
+
+
+
+</div>
+
+</body>
+</html>
+
+
